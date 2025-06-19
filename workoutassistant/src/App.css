@@ -1,0 +1,59 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nav-style {
+  display: flex;
+}
+
+.dash-container {
+  display: flex;
+  position: fixed; 
+  width: 1224px;
+  height: 594px;
+  max-height: 588px;
+}
+
+.dash-buttons {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.calendar-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-format {
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  
+}
+
+.logo-size-nav {
+  height: 80px;
+  width: 140px;
+}
+
+.logo-sidepanel {
+  height: 24%;
+  width: 42%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  display: flex;
+}
+
+.log-button-dailylog {
+  padding-left: 10px;
+  width: 50%;
+}
