@@ -1,1 +1,23 @@
-# Hello
+# Workout trainer app
+Weightlifting trainer app with built-in machine learning model for creating workouts tailored to each individual user.
+Author: Brayden Eister
+Version: 1.0
+
+## How it works
+Technology: React, Django, Python
+
+This web app is designed to consistently take user input in the forms of numerical and categorical data from the user regarding their weightlifting progress and run it through a learning model. The model then produces a numerical output which is to be unpacked and presented to the user in a readable format, describing what their next workout should look like for that particular exercise. So far, this prototype has produced consistent results given samples of beginner and intermediate level weightlifting data. 
+
+For v1.0:
+In this version, the data that is returned is shown within the console and is not unpacked for the user. In further versions, this data will be far more readable in the form of front-end text, and it will be stored in a database for further training and data analysis for the user.
+This version has no working database. Test objects can be created in the Django terminal for one time testing.
+
+## What I've learned
+This was my first solo full-stack project using the technologies listed. Many of the challenges I faced stemmed from my inexperience with standard web dev practices, so this was a great experience in terms of showing me what I should focus on more in further projects and how I should conduct my overall work flow.
+
+- Readability. The commenting throughout the code for v1.0 is quite inconsistent. Despite learning about the importance of readability, it wasn't until I built something of this scale that I had suffered the consequences of the lack thereof. Further updates will better describe the code
+- Styling. Since I was a novice with these techonologies, I can look back and see the inconsistencies in my writing, which teaches me a lot moving forward.
+- Debugging. I had experienced many annoying bugs which could have been solved with a few unit tests, which I implemented later and plan to implement more of.
+- Security and authorization. This was my first experience using any sort of scalable authorization method, as well as my first experience writing secure API endpoints.
+- File structure. This project taught me a lot about how to cleanly structure files and direct my work flow moving forward.
+- Machine learning practices.
